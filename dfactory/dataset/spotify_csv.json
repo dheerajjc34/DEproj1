@@ -1,0 +1,22 @@
+{
+	"name": "spotify_csv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_HttpGit",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "dheerajjc34/DEproj1/main/dataset/spotify-2023.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
